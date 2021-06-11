@@ -1,0 +1,139 @@
+body{margin: 0;background-color: #d9ecf2;}
+#nav{
+    background: url('../imgs/celebbackground.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    height: 500px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+#nav1{
+    background: url('../imgs/celebcollage.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    margin: 0;
+    margin-top: 70px;
+    display: inline-block;
+}
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: ghostwhite;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.navlist li {
+  background-color: ghostwhite;
+  height: 70px;
+  float: left;
+  margin-right: 2%;
+  line-height: 6%;
+  width: 5%;
+}
+.navlist a {
+  padding: 8px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.navlist span{
+ display: inline-block;
+ margin-left: 20px;
+ font-weight: bold;
+}
+.navlist a:hover {filter: drop-shadow(10px 0px 0px grey);}
+/*what we do*/
+.aboutceleb{
+  background-color: black;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: ghostwhite;
+}
+/*services*/
+.row{background-color: #d9ecf2;}
+#hire{
+  background: url('../imgs/hiringceleb.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+  margin-top: 20px;
+}
+#hireinfo{
+  background-size: 60%;
+  height: 500px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+#hireinfo h2{margin-top: 10px;margin-bottom: 15px;}
+#brand{
+  background: url('../imgs/endorseceleb.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 550px;
+  transform: translateX(-50px);
+}
+#brandinfo{
+  background-size: 20%;
+  height: 500px;
+  width: 30%;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+#brandinfo h2{margin-top: 10px;margin-bottom: 15px;}
+#pr{
+  background: url('../imgs/prceleb2.jpg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 350px;
+  transform: translateX(35px);
+}
+#prinfo{
+  background-size: 60%;
+  height: 500px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+#prinfo h2{margin-top: 10px;margin-bottom: 15px;}
+/*footer*/
+.footer{
+  background-color: black;
+  display: inline-block;
+  bottom: 0;
+  margin-bottom: 0;
+  width: 100%;
+}
+.footerheading{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: ghostwhite;
+  text-decoration: underline;
+}
+.copy{
+  float: left;
+  display: block;
+  font-size: 15px;
+  margin-left: 10px;
+  color: ghostwhite;
+}
+.contact{
+  float: right;
+  display: block;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact a{color: ghostwhite;}

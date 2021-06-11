@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="CSSfile/contactCSS.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+          <ul class="navlist">
+            <li><a href="index.html" title="Home"><img src="https://img.icons8.com/ios-filled/32/000000/home.png"/></i></a>
+            <span style="margin-top: 4.5px;">Home</span></li>
+          </ul>
+        </nav>
+    </header>
+    <div id="contactdiv">
+        <div id="contacttext">
+            <h2>Feel Free To Contact Us !</h2>
+        </div>
+    </div>
+    <div id="teamheading">
+        <h2>Our Team</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-3" id="team1">
+            <img src="imgs/person1.jpg" alt="person">
+            <div class="persondiv">
+                <h3><b>NEHA ANAND</b></h3>
+                <p>DIRECTOR</p>
+            </div>
+        </div>
+        <div class="col-sm-3" id="team2">
+            <img src="imgs/person2.jpg" alt="person">
+            <div class="persondiv">
+                <h3><b>KUMAR BHAT</b></h3>
+                <p>HEAD F &amp A</p>
+            </div>
+        </div>
+        <div class="col-sm-3" id="team3">
+            <img src="imgs/person1.jpg" alt="person">
+            <div class="persondiv">
+                <h3><b>PRIYA RAJ</b></h3>
+                <p>CREATIVE MANAGER</p>
+            </div>
+        </div>
+        <div class="col-sm-3" id="team4">
+            <img src="imgs/person2.jpg" alt="person">
+            <div class="persondiv">
+                <h3><b>SHREY MM</b></h3>
+                <p>MANAGER PRODUCTION</p>
+            </div>
+        </div>
+    </div>
+    <div  class="row" id="form">
+        <div style="height: 100px;"></div>
+        <div class="col-sm-1"></div>
+        <div id="map" class="col-sm-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124738.44715983236!2d76.56564919889452!3d12.310636832240316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf70381d572ef9%3A0x2b89ece8c0f8396d!2sMysuru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1599896627251!5m2!1sen!2sin"
+      height="650" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div style="height: 100px;" class="col-sm-2"></div>
+        <div id="formcontainer" class="col-sm-4">
+            <h3>Contact Form</h3>
+            <form>
+               <label>First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+              <label >Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+              <label >Email ID</label>
+              <input type="email" id="mail" name="email" placeholder="someone@example.com" required>
+              <label>State</label>
+              <select id="state" name="state" required>
+                <option value="karnataka">Karnataka</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <input  type="text" placeholder="Or Type Here">
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Brief us about the event you planning to conduct..." style="height:80px" required></textarea>
+          </form>
+          <button id="btn">Submit</button>
+          </div>
+          <div class="col-sm-4" id="contactpic">
+        </div>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Your Form has been submitted</h2>
+        </div>
+        <div class="modal-body">
+            <p>Thank You, for contacting us!</p>
+            <p>We will get back to you in less than 2 days! All the required information will be sent to your mail.</p>
+        </div>
+        <div class="modal-footer">
+            <h3>For more queries, Call Us : +91 8217398210</h3>
+        </div>
+    </div>
+    </div>
+    <footer class="footer">
+    <h2 class="footerheading">EvenzOne</h2>
+    <div class="copy">
+      <p>Copyright &copy 2020 EvenzOne | All Rights Reserved.</p>
+    </div>
+    <div class="contact">
+      <p>Email ID: queries@evenzone.org.in</p>
+    </div>
+  </footer>
+  <script src="JS/contactJS.js"></script>
+</body>
+</html>
